@@ -1,3 +1,6 @@
 [submodule "Practice_Questions"]
 	path = Practice_Questions
 	url = https://github.com/Somya2425/Practice_Questions
+[submodule "ProductInventoryManager"]
+	path = ProductInventoryManager
+	url = https://github.com/Somya2425/ProductInventoryManager

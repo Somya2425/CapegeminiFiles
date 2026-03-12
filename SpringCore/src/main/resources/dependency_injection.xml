@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id = "per1" class="dependancy_injection.Person">
+        <property name="id" value="1"></property>
+        <property name="name" value="sam"></property>
+        <property name="pan" ref="p1"></property>
+    </bean>
+
+    <bean id ="p1" class="dependancy_injection.Pan">
+        <property name="panId" value="123"></property>
+        <property name="panName" value="sam"></property>
+    </bean>
+</beans>
